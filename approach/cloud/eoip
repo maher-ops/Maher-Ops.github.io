@@ -1,0 +1,22 @@
+				<div class="inner-page service">
+					<div class="container">
+						<h2><i class="fa fa-anchor"></i><strong>EoIP</strong></h2>
+						<div class="inner-sitem">
+							<div class="row">
+								<div class="col-md-3 col-sm-3">
+									<p>Lorem ipsum dolor sit amet ...</p>
+								</div>
+<br />
+<b>Warning</b>:  Uncaught ErrorException: require_once(/git/bucket/IT-Web/maher-ops/app/views/approach/cloud/eoip.php): failed to open stream: No such file or directory in /git/bucket/IT-Web/maher-ops/php2use/core/Site.php:105
+Stack trace:
+#0 /git/bucket/IT-Web/maher-ops/php2use/core/Site.php(105): flight\Engine->handleError()
+#1 /git/bucket/IT-Web/maher-ops/php2use/core/Site.php(105): require_once()
+#2 /git/bucket/IT-Web/maher-ops/php2use/core/Site.php(113): PHP2USE\Site::load()
+#3 /git/bucket/IT-Web/maher-ops/php2use/core/Site.php(120): PHP2USE\Site::load_app()
+#4 /git/bucket/IT-Web/maher-ops/app/views/approach/view.php(16): PHP2USE\Site::app_view()
+#5 /git/bucket/IT-Web/maher-ops/vendor/mikecao/flight/flight/template/View.php(125): include('/git/bucket/IT-...')
+#6 /git/bucket/IT-Web/maher-ops/vendor/mikecao/flight/flight/template/View.php(138): flight\template\View->render()
+#7 /git/bucket/IT-Web/maher-ops/vendor/mikecao/flight/flight/Engine.php(441): flight\template\View->fetch()
+#8 /git/bucket/IT-Web/maher-ops/vendor/mik in <b>/git/bucket/IT-Web/maher-ops/php2use/core/Site.php</b> on line <b>105</b><br />
+<br />
+<b>Fatal error</b>:  PHP2USE\Site::load(): Failed opening required '/git/bucket/IT-Web/maher-ops/app/views/approach/cloud/eoip.php' (include_path='.:/usr/share/php') in <b>/git/bucket/IT-Web/maher-ops/php2use/core/Site.php</b> on line <b>105</b><br />
